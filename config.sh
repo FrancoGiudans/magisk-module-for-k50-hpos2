@@ -42,7 +42,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "        Magisk 模块示例        "
+  ui_print "        For HpOS2 on Dimensity        "
   ui_print "*******************************"
 }
 
@@ -55,10 +55,7 @@ print_modname() {
 
 # 这是个示例
 REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
+/system/system_ext/framework
 "
 
 # 在这里构建你自己的列表，它将覆盖上面的示例
