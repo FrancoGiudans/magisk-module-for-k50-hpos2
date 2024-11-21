@@ -23,7 +23,7 @@
 
 # 如果你需要启用 Magic Mount, 请把它设置为 true
 # 大多数模块都需要启用它
-AUTOMOUNT=true
+AUTOMOUNT=false
 
 # 如果你需要加载 system.prop, 请把它设置为 true
 PROPFILE=false
@@ -55,12 +55,13 @@ print_modname() {
 
 # 这是个示例
 REPLACE="
-/system/system_ext/framework
+
 "
 
 # 在这里构建你自己的列表，它将覆盖上面的示例
 # 如果你不需要替换任何东西，!千万不要! 删除它，让它保持现在的状态
 REPLACE="
+
 "
 
 ##########################################################################################
