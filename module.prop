@@ -1,7 +1,7 @@
-id=template
-name=模块模板
+id=k50hpos2
+name=k50hpos2
 version=v1
 versionCode=1
-author=topjohnwu
+author=author
 description=一个简短的描述
-minMagisk=17000
+minMagisk=27000
